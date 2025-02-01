@@ -14,7 +14,7 @@ utc_plus_one = pytz.timezone('Europe/Amsterdam')
 def get_info(request):
     
     email = "Kolademodupe007@gmail.com"  
-    current_datetime = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    current_datetime = datetime.now(utc_plus_one).strftime("%Y-%m-%dT%H:%M:%SZ")
     github_url = "https://github.com/dartlord007/hng_stage0"  
 
     response = {
