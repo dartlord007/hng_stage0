@@ -110,6 +110,9 @@ If you visit http://127.0.0.1:8000/api/, you should get a response like this:
   }
   ```
 
+## 🔗 Backlink
+
+[HNG Python Developers](https://hng.tech/hire/python-developers)
 
 ## 🎯 Contributing
 
@@ -118,7 +121,3 @@ Feel free to fork this repository, create a new branch, and submit a pull reques
 ## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## 🔗 Backlink
-
-[HNG Python Developers](https://hng.tech/hire/python-developers)
