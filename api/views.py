@@ -9,7 +9,7 @@ def get_info(request):
     
     email = "Kolademodupe007@gmail.com"  
     current_datetime = datetime.now(utc_plus_one)
-    github_url = "https://github.com/dartlord007"  
+    github_url = "https://github.com/dartlord007/hng_stage0"  
 
     response = {
         "email": email,
