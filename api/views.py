@@ -1,10 +1,16 @@
 
+from django.shortcuts import render
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_GET
+from datetime import datetime,timezone
 from datetime import datetime
 import pytz
 
 utc_plus_one = pytz.timezone('Europe/Amsterdam') 
 
+@csrf_exempt
+@require_GET
 def get_info(request):
     
     email = "Kolademodupe007@gmail.com"  
